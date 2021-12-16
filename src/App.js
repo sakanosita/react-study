@@ -1,9 +1,12 @@
-import GitIds from './components/GitIds'
+// import GitIds from './components/GitIds'
+import Counter from './components/Counter'
+import ToggleButton from './components/ToggleButton';
 
 function App() {
   return (
     <>
-      <GitIds />
+      <Counter />
+      <ToggleButton />
     </>
   )
 }
