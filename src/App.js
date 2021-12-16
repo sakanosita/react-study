@@ -1,14 +1,10 @@
-import Article from "./components/Article";
+
+import Counter from "./components/Counter";
 
 function App() {
-  const now = new Date();
   return (
     <div>
-      <Article
-        title={"hoge"}
-        content={"fuga"}
-        updatedAt={now}
-      />
+      <Counter />
     </div>
   );
 }
